@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@color/white"
+        >
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="10dp"
+            app:cardUseCompatPadding="true"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                <ImageView
+                    android:id="@+id/mainImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_launcher_background"
+                    android:scaleType="centerCrop"
+                    />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_alignParentBottom="true"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="3dp"
+                    android:layout_margin="5dp"
+                    app:cardUseCompatPadding="true">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        >
+                        <TextView
+                            android:id="@+id/title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Kohili is prime exemple of cricket that he shows a good part in T-20  and i am a crazy lover of virat  and her wife also"
+                            android:maxLines="2"
+                            android:ellipsize="end"
+                            android:textAlignment="textStart"
+                            android:textSize="17sp"
+                            android:fontFamily="sans-serif-black"
+                            android:lineBreakStyle="loose"
+                            android:textColor="@color/black"
+                            android:lineHeight="25dp"
+                            android:padding="5dp"/>
+                        <TextView
+                            android:id="@+id/author"
+                            android:layout_marginTop="5dp"
+                            android:layout_below="@+id/title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Brown Fish"
+                            android:textSize="14sp"
+                            android:fontFamily="sans-serif-medium"
+                            android:textColor="@color/black"
+                            android:textStyle="italic"
+                            android:padding="5dp"/>
+                        <TextView
+                            android:id="@+id/time"
+                            android:layout_toRightOf="@id/author"
+                            android:layout_marginTop="5dp"
+                            android:layout_below="@+id/title"
+                            android:layout_width="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_height="wrap_content"
+                            android:text="Oct 18 2023 "
+                            android:textSize="14sp"
+                            android:fontFamily="sans-serif-medium"
+                            android:lineBreakStyle="loose"
+                            android:textColor="#C3000000"
+                            android:padding="5dp"/>
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+</RelativeLayout>

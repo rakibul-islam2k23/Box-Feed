@@ -1,0 +1,8 @@
+<resources>
+
+
+    <string name="app_name">News Paper</string>
+
+    <string name="Open_drawer">Open Drawer</string>
+    <string name="Close_drawer">Close Drawer</string>
+</resources>
