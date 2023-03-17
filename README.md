@@ -22,7 +22,7 @@ The News Paper app which gives a user regularly-updated news from the internet r
 • Fetches News from 4 sources (will add more in the future).
 • Beautiful UI with Navigation Drawer Animations.
 • News update from api day by day.
-• It contain 1000 news in single page.
+• It contain 100 news in single page.
 
 
 ## Libraries used in this project
